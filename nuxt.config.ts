@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: 'Crystal Cafe',
       link: [
         {
           rel: 'preconnect',
@@ -28,7 +29,8 @@ export default defineNuxtConfig({
         {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap'
-        }
+        },
+        { rel: 'icon', type: 'image/x-icon', href: '/images/crystal.webp' }
       ]
     }
   }
