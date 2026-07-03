@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-cafe-beige">
+  <section class="py-20 bg-cafe-beige" id="menu">
     <div class="container mx-auto px-4">
       
       <div class="flex items-center justify-between mb-10 max-w-6xl mx-auto">

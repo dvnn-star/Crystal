@@ -16,7 +16,7 @@
         size="large" 
         class="bg-cafe-gold hover:bg-yellow-600 transition-colors duration-300 transform hover:scale-105"
       >
-        Order Now
+        <nuxt-link to="/order">Order Now</nuxt-link>
       </Basebutton>
     </div>
   </section>

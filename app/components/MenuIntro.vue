@@ -18,7 +18,9 @@
           <p><span class="font-semibold text-cafe-gold">Iced Coffee:</span> Chilled, light, and refreshing, a cool brew perfect for warm days.</p>
         </div>
         <p class="text-gray-700">Get an early start to your day and perfect your coffee moment with us.</p>
-        <Basebutton>View All Menus</Basebutton>
+        <Basebutton>
+          <nuxt-link to="#menu">View All Menus</nuxt-link>
+        </Basebutton>
       </div>
     </div>
   </section>
